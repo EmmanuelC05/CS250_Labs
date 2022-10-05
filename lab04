@@ -1,1 +1,51 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package lab04a;
+
+/**
+ *
+ * @author manny
+ */
+public class Lab04a {
+     public static void main(String[] args)
+     {
+      int[]inputArray = {1,3,5,15};  
+      int n = mySearch(inputArray, 16) ;
+      if(n != -1){
+          System.out.println("Found");       
+      }
+      else{
+          System.out.println("Not Found");
+     }
+     }
+    public static int mySearch(int[]inputArray, int n)
+    {
+        for(int i=0;i<inputArray.length;i++)
+        {
+            if (inputArray[i] == n);
+            {
+                return i;
+            }
+    }  
+        return -1;
+    }
+
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
 
