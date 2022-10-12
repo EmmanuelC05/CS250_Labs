@@ -15,7 +15,7 @@ public class Lab5 {
         int a = 5, b = 10;
         
         int Sum = a + b ;
-        
+        //The "sum" was was turned into "Sum" with an uppercase "s".
         System.out.println("Sum of variables is "+ Sum);
 
     }
