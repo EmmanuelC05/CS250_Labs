@@ -14,7 +14,7 @@ public class Lab5IncorrectMessage {
         
         if (a > b && a > c) 
             System.out.println(a + " is the largest number");
-        
+        //I changed the "smallest" to "largest" in the statement below to display the correct message.
         else if (b > a && b > c)
             System.out.println(b + " is the largest Number");
         
